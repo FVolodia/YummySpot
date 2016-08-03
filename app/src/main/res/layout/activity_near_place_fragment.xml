@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:progressActivity="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshNearPlaceFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleView"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:background="@color/background_dark" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <com.vlonjatg.progressactivity.ProgressActivity
+        android:id="@+id/progressActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        progressActivity:emptyBackgroundColor="#42a5f5"
+        progressActivity:errorBackgroundColor="#fbc02d"
+        progressActivity:loadingBackgroundColor="#FFFFFF">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center" />
+
+    </com.vlonjatg.progressactivity.ProgressActivity>
+
+</FrameLayout>

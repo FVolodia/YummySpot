@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:progressActivity="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/badgeContainerMainView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@color/background_main"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/space_default"
+        android:paddingLeft="@dimen/space_default"
+        android:paddingRight="@dimen/space_default"
+        android:paddingTop="@dimen/space_default">
+
+        <!--Add BadgeView-->
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/badgeContainerMainView" />
+
+    <com.vlonjatg.progressactivity.ProgressActivity
+        android:id="@+id/progressActivityMyPlaceFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/badgeContainerMainView"
+        progressActivity:emptyBackgroundColor="#42a5f5"
+        progressActivity:loadingBackgroundColor="#FFFFFF">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center" />
+
+    </com.vlonjatg.progressactivity.ProgressActivity>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">yummySpot</string>
+
+    <string name="permission_info">Location is needed to find places around</string>
+
+    <string name="background_text_search">Enter place ...</string>
+    <string name="tap_fab">To start navigating tap yellow button</string>
+    <string name="add_to_bd">was added to your yummy spots</string>
+
+    <string name="near_place">Near</string>
+    <string name="my_place">yummy</string>
+    <string name="explore_place">Explore</string>
+
+    <string name="no_get_data">No results</string>
+    <string name="loading_data">Loading data...</string>
+    <string name="wait_minute">Please wait</string>
+
+    <string name="connection_error">Oops! No access to internet</string>
+    <string name="check_your_internet">Please check your connection</string>
+
+    <string name="check_data_or_badge">There are no such yummy spots</string>
+    <string name="check_data">Try to use another keyword</string>
+
+    <string name="label_category">Category</string>
+    <string name="label_phone">Phone</string>
+    <string name="label_web">Web</string>
+    <string name="label_location">Location</string>
+
+</resources>

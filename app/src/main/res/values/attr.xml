@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PlaceDetailView">
+        <attr name="iconDetail" format="string" />
+        <attr name="mainText" format="string" />
+        <attr name="label" format="string" />
+    </declare-styleable>
+
+</resources>

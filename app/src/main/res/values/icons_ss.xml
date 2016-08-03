@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ss_coffe">0xF120</integer>
+    <integer name="ss_beer">0x1F37A</integer>
+    <integer name="ss_pancakes">0xF113</integer>
+    <integer name="ss_burger">0x1F354</integer>
+    <integer name="ss_pizza">0x1F355</integer>
+    <integer name="ss_wineglass">0x1F377</integer>
+    <integer name="ss_cocktail">0x1F378</integer>
+    <integer name="ss_utensils">0x1F374</integer>
+</resources>

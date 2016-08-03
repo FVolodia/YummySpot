@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="icon_beer16">0xe800</integer>
+    <integer name="icon_beverage2">0xe801</integer>
+    <integer name="icon_pitcher10">0xe808</integer>
+
+    <integer name="icon_hamburger5">0xe805</integer>
+    <integer name="icon_hamburger8">0xe806</integer>
+    <integer name="icon_burger4">0xe802</integer>
+
+    <integer name="icon_tea24">0xe80b</integer>
+    <integer name="icon_wine41">0xe80c</integer>
+    <integer name="icon_fish60">0xe804</integer>
+
+    <integer name="icon_sweet9">0xe80a</integer>
+    <integer name="icon_dessert58">0xe803</integer>
+    <integer name="icon_italian1">0xe807</integer>
+    <integer name="icon_steak">0xe809</integer>
+
+</resources>

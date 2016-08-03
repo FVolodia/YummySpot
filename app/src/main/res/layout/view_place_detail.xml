@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.github.johnkil.print.PrintView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pvIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        app:iconColor="@color/primary"
+        app:iconFont="fonts/material-icon-font.ttf"
+        app:iconSize="@dimen/icon_size"
+        app:iconText="@string/ic_material_call" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/pvIcon"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvMainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/space_special"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-light"
+            android:singleLine="true"
+            android:text="Test"
+            android:textColor="@color/text_primary"
+            android:textSize="@dimen/text_primary_size" />
+
+        <TextView
+            android:id="@+id/tvLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/space_special"
+            android:fontFamily="sans-serif-light"
+            android:text="Mobile"
+            android:textColor="@color/text_secondary"
+            android:textSize="@dimen/text_secondary_size" />
+
+    </LinearLayout>
+
+
+</merge>

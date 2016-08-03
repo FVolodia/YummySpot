@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">yummySpot</string>
+    <string name="add_to_bd">добавлено к yummy</string>
+    <string name="background_text_search">Введите название ...</string>
+    <string name="check_data">Попробуйте другое название</string>
+    <string name="check_data_or_badge">Таких мест не найдено</string>
+    <string name="label_category">Категория</string>
+    <string name="label_location">Місцезнаходження</string>
+    <string name="label_phone">Телефон</string>
+    <string name="label_web">Веб Сайт</string>
+    <string name="my_place">yummy</string>
+    <string name="near_place">Рядом</string>
+    <string name="no_get_data">Нет результатов</string>
+    <string name="tap_fab">Для начала навигации нажмите желтую кнопку</string>
+    <string name="explore_place">Модно</string>
+    <string name="permission_info">Местоположение нужно, чтобы найти места вокруг</string>
+    <string name="check_your_internet">Пожалуйста, проверьте соединение</string>
+    <string name="connection_error">Уппсс! Нет доступа к сети Интернет</string>
+    <string name="loading_data">Получаем данные</string>
+    <string name="wait_minute">Подождите минутку</string>
+</resources>
